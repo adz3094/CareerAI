@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendations - Results</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f9fafb;
+            color: #374151;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 64rem;
+            margin: 0 auto;
+            padding: 1.5rem;
+            background-color: white;
+            min-height: 100vh;
+        }
+
+        .header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.25rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #6b7280;
+            font-size: 1.125rem;
+        }
+
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .career-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e5e7eb;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        .career-card:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .career-card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .career-card:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .career-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .career-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+        }
+
+        .rank-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.125rem;
+            box-shadow: 0 2px 4px rgba(59, 130, 246, 0.3);
+        }
+
+        .career-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-right: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .career-subtitle {
+            color: #6b7280;
+            font-size: 1rem;
+        }
+
+        .card-content {
+            margin-bottom: 1.5rem;
+        }
+
+        .view-details-btn {
+            background-color: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+        }
+
+        .view-details-btn:hover {
+            background-color: #e5e7eb;
+            transform: translateY(-1px);
+        }
+
+        .view-details-btn.expanded {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            border-color: #93c5fd;
+        }
+
+        .details-section {
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-top: 0;
+        }
+
+        .details-section.expanded {
+            max-height: 500px;
+            opacity: 1;
+            margin-top: 1.5rem;
+        }
+
+        .details-content {
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .detail-category {
+            margin-bottom: 1.25rem;
+        }
+
+        .detail-category:last-child {
+            margin-bottom: 0;
+        }
+
+        .detail-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: center;
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 0.375rem;
+        }
+
+        .detail-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .detail-item::before {
+            content: '•';
+            color: #3b82f6;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .chevron-icon {
+            width: 1rem;
+            height: 1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .chevron-icon.rotated {
+            transform: rotate(180deg);
+        }
+
+        .top-recommendation {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-color: #f59e0b;
+        }
+
+        .top-recommendation::before {
+            background: linear-gradient(90deg, #f59e0b, #d97706);
+        }
+
+        .top-recommendation .rank-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);
+        }
+
+        .actions {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background-color: #f3f4f6;
+            color: #374151;
+            border: 1px solid #d1d5db;
+            margin-left: 1rem;
+        }
+
+        .btn-secondary:hover {
+            background-color: #e5e7eb;
+            transform: translateY(-1px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .header h1 {
+                font-size: 1.875rem;
+            }
+
+            .header p {
+                font-size: 1rem;
+            }
+
+            .career-card {
+                padding: 1.5rem;
+            }
+
+            .career-title {
+                font-size: 1.25rem;
+                margin-right: 2.5rem;
+            }
+
+            .card-content {
+                margin-bottom: 1rem;
+            }
+
+            .details-section.expanded {
+                max-height: 600px;
+            }
+
+            .rank-badge {
+                width: 2rem;
+                height: 2rem;
+                font-size: 1rem;
+            }
+
+            .btn-secondary {
+                margin-left: 0;
+                margin-top: 0.75rem;
+            }
+
+            .actions {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your Career Recommendations</h1>
+            <p>Based on your skills, interests, and preferences, here are your top career matches</p>
+        </div>
+
+        <div class="results-container" id="results-container">
+            <!-- Career cards will be populated by JavaScript -->
+        </div>
+
+        <div class="actions">
+            <button class="btn btn-primary" onclick="startOver()">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                </svg>
+                Start Over
+            </button>
+            <button class="btn btn-secondary" onclick="goBack()">
+                <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                Back to Form
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Sample data - replace this with your actual data
+        const rawData = localStorage.getItem("careerResults");
+
+        if (!rawData) {
+        alert("No recommendations found. Please go back and complete the form.");
+        window.location.href = "index.html";
+        }
+
+        const recommendations = JSON.parse(rawData).map((rec) => {
+        return {
+            rank: rec.rank,
+            title: rec.title,
+            skills: rec.career_details.skills || [],
+            interests: rec.career_details.interests || [],
+            traits: rec.career_details.traits || []
+        };
+        });
+
+
+        function renderRecommendations() {
+            const container = document.getElementById('results-container');
+            
+            recommendations.forEach((career, index) => {
+                const card = document.createElement('div');
+                card.className = `career-card ${career.rank === 1 ? 'top-recommendation' : ''}`;
+                
+                card.innerHTML = `
+                    <div class="rank-badge">${career.rank}</div>
+                    <div class="card-content">
+                        <div class="career-title">${career.title}</div>
+                        <div class="career-subtitle">
+                            ${career.rank === 1 ? 'Top recommendation for you' : 
+                              career.rank === 2 ? 'Strong match' : 'Good match'}
+                        </div>
+                    </div>
+                    <button class="view-details-btn" onclick="toggleDetails(${index})">
+                        <span class="btn-text">View Details</span>
+                        <svg class="chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="details-section" id="details-${index}">
+                        <div class="details-content">
+                            <div class="detail-category">
+                                <div class="detail-title">Skills</div>
+                                <ul class="detail-list">
+                                    ${career.skills.map(skill => `<li class="detail-item">${skill}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div class="detail-category">
+                                <div class="detail-title">Interests</div>
+                                <ul class="detail-list">
+                                    ${career.interests.map(interest => `<li class="detail-item">${interest}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div class="detail-category">
+                                <div class="detail-title">Key Traits</div>
+                                <ul class="detail-list">
+                                    ${career.traits.map(trait => `<li class="detail-item">${trait}</li>`).join('')}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                container.appendChild(card);
+            });
+            localStorage.removeItem("careerResults");
+        }
+
+        function toggleDetails(index) {
+            const detailsSection = document.getElementById(`details-${index}`);
+            const button = detailsSection.previousElementSibling;
+            const chevron = button.querySelector('.chevron-icon');
+            const btnText = button.querySelector('.btn-text');
+            
+            if (detailsSection.classList.contains('expanded')) {
+                // Collapse
+                detailsSection.classList.remove('expanded');
+                button.classList.remove('expanded');
+                chevron.classList.remove('rotated');
+                btnText.textContent = 'View Details';
+            } else {
+                // Expand
+                detailsSection.classList.add('expanded');
+                button.classList.add('expanded');
+                chevron.classList.add('rotated');
+                btnText.textContent = 'Hide Details';
+            }
+        }
+
+        function startOver() {
+            // Redirect to the main form or reset the application
+            window.location.href = 'index.html';
+        }
+
+        function goBack() {
+            // Go back to the previous page or form
+            window.history.back();
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', renderRecommendations);
+    </script>
+</body>
+</html>

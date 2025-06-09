@@ -1,0 +1,954 @@
+[
+  {
+    "title": "Data Scientist",
+    "required_education": "masters",
+    "skills": ["Programming/Coding", "Data Analysis", "AI/Machine Learning", "Database Management", "Statistics"],
+    "interests": ["Technology & Innovation", "Science & Research", "Business & Finance"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Attention to Detail", "Critical Thinking"]
+  },
+  {
+    "title": "UX Designer",
+    "required_education": "bachelors",
+    "skills": ["UI/UX Design", "Creative Writing", "Graphic Design", "User Research"],
+    "interests": ["Arts & Culture", "Technology & Innovation", "Media & Entertainment"],
+    "traits": ["Creativity", "Empathy", "Communication", "Attention to Detail"]
+  },
+  {
+    "title": "Embedded Engineer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Engineering", "Electronics", "Hardware Design"],
+    "interests": ["Technology & Innovation", "Manufacturing & Industry", "Science & Research"],
+    "traits": ["Problem Solving", "Attention to Detail", "Analytical Thinking"]
+  },
+  {
+    "title": "Product Manager",
+    "required_education": "masters",
+    "skills": ["Project Management", "Business Analysis", "Marketing", "Communication"],
+    "interests": ["Business & Finance", "Technology & Innovation", "Consulting & Advisory"],
+    "traits": ["Leadership", "Decision Making", "Organization", "Communication"]
+  },
+  {
+    "title": "AI Researcher",
+    "required_education": "phd",
+    "skills": ["AI/Machine Learning", "Programming/Coding", "Research", "Statistics", "Mathematics"],
+    "interests": ["Technology & Innovation", "Science & Research", "Education & Learning"],
+    "traits": ["Analytical Thinking", "Creativity", "Resilience", "Problem Solving"]
+  },
+  {
+    "title": "Marketing Analyst",
+    "required_education": "bachelors",
+    "skills": ["Marketing", "Data Analysis", "Business Analysis", "Statistics"],
+    "interests": ["Business & Finance", "Media & Entertainment", "Consulting & Advisory"],
+    "traits": ["Analytical Thinking", "Communication", "Attention to Detail"]
+  },
+  {
+    "title": "Software Engineer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Web Development", "Database Management", "Software Architecture"],
+    "interests": ["Technology & Innovation", "Business & Finance", "Science & Research"],
+    "traits": ["Problem Solving", "Teamwork", "Attention to Detail"]
+  },
+  {
+    "title": "Data Engineer",
+    "required_education": "bachelors",
+    "skills": ["Database Management", "Programming/Coding", "Cloud Computing", "ETL Pipelines"],
+    "interests": ["Technology & Innovation", "Business & Finance", "Science & Research"],
+    "traits": ["Organization", "Analytical Thinking", "Attention to Detail"]
+  },
+  {
+    "title": "DevOps Engineer",
+    "required_education": "bachelors",
+    "skills": ["Cloud Computing", "Programming/Coding", "Cybersecurity", "System Administration"],
+    "interests": ["Technology & Innovation", "Business & Finance", "Continuous Learning"],
+    "traits": ["Adaptability", "Collaboration", "Initiative"]
+  },
+  {
+    "title": "Graphic Designer",
+    "required_education": "diploma",
+    "skills": ["Graphic Design", "Creative Writing", "UI/UX Design", "Visual Arts"],
+    "interests": ["Arts & Culture", "Media & Entertainment", "Business & Finance"],
+    "traits": ["Creativity", "Attention to Detail", "Time Management"]
+  },
+  {
+    "title": "Financial Analyst",
+    "required_education": "bachelors",
+    "skills": ["Accounting/Finance", "Data Analysis", "Business Analysis", "Financial Modeling"],
+    "interests": ["Business & Finance", "Consulting & Advisory", "Science & Research"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Decision Making"]
+  },
+  {
+    "title": "Human Resources Manager",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Communication", "Teaching/Training", "Recruitment"],
+    "interests": ["Business & Finance", "Education & Learning", "Social Impact & Non-profit"],
+    "traits": ["Empathy", "Organization", "Communication", "Leadership"]
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "required_education": "bachelors",
+    "skills": ["Cybersecurity", "Programming/Coding", "Network Security", "Risk Assessment"],
+    "interests": ["Technology & Innovation", "Security & Defense", "Continuous Learning"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Problem Solving", "Critical Thinking"]
+  },
+  {
+    "title": "Content Writer",
+    "required_education": "bachelors",
+    "skills": ["Creative Writing", "Research", "SEO", "Content Strategy"],
+    "interests": ["Media & Entertainment", "Education & Learning", "Arts & Culture"],
+    "traits": ["Creativity", "Communication", "Attention to Detail", "Time Management"]
+  },
+  {
+    "title": "Digital Marketing Manager",
+    "required_education": "bachelors",
+    "skills": ["Marketing", "Social Media Marketing", "Data Analysis", "Content Strategy"],
+    "interests": ["Business & Finance", "Media & Entertainment", "Technology & Innovation"],
+    "traits": ["Creativity", "Communication", "Analytical Thinking", "Leadership"]
+  },
+  {
+    "title": "Business Analyst",
+    "required_education": "bachelors",
+    "skills": ["Business Analysis", "Data Analysis", "Project Management", "Requirements Gathering"],
+    "interests": ["Business & Finance", "Consulting & Advisory", "Technology & Innovation"],
+    "traits": ["Analytical Thinking", "Communication", "Problem Solving", "Organization"]
+  },
+  {
+    "title": "Web Developer",
+    "required_education": "diploma",
+    "skills": ["Web Development", "Programming/Coding", "UI/UX Design", "Frontend Development"],
+    "interests": ["Technology & Innovation", "Arts & Culture", "Business & Finance"],
+    "traits": ["Creativity", "Problem Solving", "Attention to Detail", "Continuous Learning"]
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "required_education": "masters",
+    "skills": ["AI/Machine Learning", "Programming/Coding", "Data Analysis", "Cloud Computing"],
+    "interests": ["Technology & Innovation", "Science & Research", "Business & Finance"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Innovation", "Technical Expertise"]
+  },
+  {
+    "title": "Sales Manager",
+    "required_education": "bachelors",
+    "skills": ["Sales", "Communication", "Project Management", "Customer Relations"],
+    "interests": ["Business & Finance", "Consulting & Advisory", "Networking"],
+    "traits": ["Leadership", "Communication", "Persuasion", "Relationship Building"]
+  },
+  {
+    "title": "Operations Manager",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Business Analysis", "Process Improvement", "Leadership"],
+    "interests": ["Business & Finance", "Manufacturing & Industry", "Consulting & Advisory"],
+    "traits": ["Organization", "Leadership", "Problem Solving", "Decision Making"]
+  },
+  {
+    "title": "Social Media Manager",
+    "required_education": "bachelors",
+    "skills": ["Social Media Marketing", "Content Creation", "Marketing", "Analytics"],
+    "interests": ["Media & Entertainment", "Business & Finance", "Arts & Culture"],
+    "traits": ["Creativity", "Communication", "Trend Awareness", "Time Management"]
+  },
+  {
+    "title": "Cloud Architect",
+    "required_education": "masters",
+    "skills": ["Cloud Computing", "System Architecture", "Programming/Coding", "Security"],
+    "interests": ["Technology & Innovation", "Business & Finance", "Infrastructure"],
+    "traits": ["Strategic Thinking", "Problem Solving", "Technical Leadership", "Innovation"]
+  },
+  {
+    "title": "Quality Assurance Engineer",
+    "required_education": "bachelors",
+    "skills": ["Testing", "Programming/Coding", "Quality Assurance", "Bug Tracking"],
+    "interests": ["Technology & Innovation", "Quality Control", "Process Improvement"],
+    "traits": ["Attention to Detail", "Analytical Thinking", "Persistence", "Communication"]
+  },
+  {
+    "title": "Technical Writer",
+    "required_education": "bachelors",
+    "skills": ["Technical Writing", "Communication", "Research", "Documentation"],
+    "interests": ["Technology & Innovation", "Education & Learning", "Communication"],
+    "traits": ["Communication", "Attention to Detail", "Empathy", "Organization"]
+  },
+  {
+    "title": "Scrum Master",
+    "required_education": "bachelors",
+    "skills": ["Agile Methodologies", "Project Management", "Facilitation", "Communication"],
+    "interests": ["Technology & Innovation", "Team Collaboration", "Process Improvement"],
+    "traits": ["Leadership", "Communication", "Facilitation", "Adaptability"]
+  },
+  {
+    "title": "UI Developer",
+    "required_education": "diploma",
+    "skills": ["Frontend Development", "UI/UX Design", "Programming/Coding", "Responsive Design"],
+    "interests": ["Technology & Innovation", "Arts & Culture", "User Experience"],
+    "traits": ["Creativity", "Attention to Detail", "Problem Solving", "User Focus"]
+  },
+  {
+    "title": "Database Administrator",
+    "required_education": "bachelors",
+    "skills": ["Database Management", "SQL", "System Administration", "Performance Tuning"],
+    "interests": ["Technology & Innovation", "Data Management", "System Optimization"],
+    "traits": ["Organization", "Analytical Thinking", "Attention to Detail", "Problem Solving"]
+  },
+  {
+    "title": "Research Scientist",
+    "required_education": "phd",
+    "skills": ["Research", "Data Analysis", "Scientific Writing", "Experimental Design"],
+    "interests": ["Science & Research", "Innovation", "Knowledge Discovery"],
+    "traits": ["Curiosity", "Analytical Thinking", "Persistence", "Critical Thinking"]
+  },
+  {
+    "title": "Video Editor",
+    "required_education": "diploma",
+    "skills": ["Video Editing", "Creative Arts", "Storytelling", "Technical Skills"],
+    "interests": ["Media & Entertainment", "Arts & Culture", "Creative Expression"],
+    "traits": ["Creativity", "Attention to Detail", "Patience", "Technical Aptitude"]
+  },
+  {
+    "title": "Network Engineer",
+    "required_education": "bachelors",
+    "skills": ["Network Administration", "System Administration", "Troubleshooting", "Security"],
+    "interests": ["Technology & Innovation", "Infrastructure", "Problem Solving"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Attention to Detail", "Technical Expertise"]
+  },
+  {
+    "title": "Investment Analyst",
+    "required_education": "masters",
+    "skills": ["Financial Analysis", "Investment Research", "Risk Assessment", "Market Analysis"],
+    "interests": ["Business & Finance", "Economics", "Market Trends"],
+    "traits": ["Analytical Thinking", "Risk Assessment", "Decision Making", "Attention to Detail"]
+  },
+  {
+    "title": "Game Developer",
+    "required_education": "bachelors",
+    "skills": ["Game Development", "Programming/Coding", "3D Modeling", "Game Design"],
+    "interests": ["Gaming", "Technology & Innovation", "Creative Expression"],
+    "traits": ["Creativity", "Problem Solving", "Passion for Gaming", "Technical Skills"]
+  },
+  {
+    "title": "SEO Specialist",
+    "required_education": "bachelors",
+    "skills": ["SEO", "Digital Marketing", "Analytics", "Content Strategy"],
+    "interests": ["Digital Marketing", "Technology & Innovation", "Business Growth"],
+    "traits": ["Analytical Thinking", "Detail Oriented", "Strategic Thinking", "Adaptability"]
+  },
+  {
+    "title": "Mobile App Developer",
+    "required_education": "bachelors",
+    "skills": ["Mobile Development", "Programming/Coding", "UI/UX Design", "App Store Optimization"],
+    "interests": ["Technology & Innovation", "Mobile Technology", "User Experience"],
+    "traits": ["Problem Solving", "Creativity", "User Focus", "Technical Expertise"]
+  },
+  {
+    "title": "Environmental Scientist",
+    "required_education": "masters",
+    "skills": ["Environmental Science", "Research", "Data Analysis", "Field Work"],
+    "interests": ["Environmental Conservation", "Science & Research", "Sustainability"],
+    "traits": ["Environmental Awareness", "Analytical Thinking", "Problem Solving", "Passion for Nature"]
+  },
+  {
+    "title": "Business Intelligence Analyst",
+    "required_education": "bachelors",
+    "skills": ["Business Intelligence", "Data Analysis", "Data Visualization", "SQL"],
+    "interests": ["Business & Finance", "Data Insights", "Decision Support"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Communication", "Business Acumen"]
+  },
+  {
+    "title": "Systems Analyst",
+    "required_education": "bachelors",
+    "skills": ["Systems Analysis", "Requirements Gathering", "Process Improvement", "Technical Documentation"],
+    "interests": ["Technology & Innovation", "Process Optimization", "Business Technology"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Communication", "Systems Thinking"]
+  },
+  {
+    "title": "Consultant",
+    "required_education": "masters",
+    "skills": ["Consulting", "Business Analysis", "Problem Solving", "Client Relations"],
+    "interests": ["Consulting & Advisory", "Business Strategy", "Problem Solving"],
+    "traits": ["Communication", "Problem Solving", "Adaptability", "Client Focus"]
+  },
+  {
+    "title": "Legal Advisor",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Case Analysis", "Client Counseling"],
+    "interests": ["Law & Justice", "Problem Solving", "Advocacy"],
+    "traits": ["Analytical Thinking", "Communication", "Ethical Reasoning", "Attention to Detail"]
+  },
+  {
+    "title": "Healthcare Administrator",
+    "required_education": "masters",
+    "skills": ["Healthcare Management", "Project Management", "Regulatory Compliance", "Leadership"],
+    "interests": ["Healthcare", "Administration", "Public Service"],
+    "traits": ["Leadership", "Organization", "Empathy", "Problem Solving"]
+  },
+  {
+    "title": "Elementary School Teacher",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Communication", "Creative Writing", "Project Management"],
+    "interests": ["Education & Learning", "Social Impact & Non-profit", "Arts & Culture"],
+    "traits": ["Empathy", "Communication", "Creativity", "Organization"]
+  },
+  {
+    "title": "High School Teacher",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Communication", "Research", "Content Strategy"],
+    "interests": ["Education & Learning", "Science & Research", "Social Impact & Non-profit"],
+    "traits": ["Communication", "Analytical Thinking", "Empathy", "Leadership"]
+  },
+  {
+    "title": "Special Education Teacher",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Communication", "User Research", "Project Management"],
+    "interests": ["Education & Learning", "Social Impact & Non-profit", "Healthcare"],
+    "traits": ["Empathy", "Patience", "Problem Solving", "Adaptability"]
+  },
+  {
+    "title": "School Principal",
+    "required_education": "masters",
+    "skills": ["Leadership", "Project Management", "Communication", "Teaching/Training"],
+    "interests": ["Education & Learning", "Administration", "Social Impact & Non-profit"],
+    "traits": ["Leadership", "Decision Making", "Organization", "Communication"]
+  },
+  {
+    "title": "School Counselor",
+    "required_education": "masters",
+    "skills": ["Communication", "User Research", "Teaching/Training", "Client Counseling"],
+    "interests": ["Education & Learning", "Social Impact & Non-profit", "Healthcare"],
+    "traits": ["Empathy", "Communication", "Problem Solving", "Relationship Building"]
+  },
+  {
+    "title": "Curriculum Developer",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Research", "Creative Writing", "Content Strategy"],
+    "interests": ["Education & Learning", "Science & Research", "Arts & Culture"],
+    "traits": ["Creativity", "Analytical Thinking", "Attention to Detail", "Organization"]
+  },
+  {
+    "title": "School Librarian",
+    "required_education": "masters",
+    "skills": ["Research", "Communication", "Database Management", "Teaching/Training"],
+    "interests": ["Education & Learning", "Arts & Culture", "Knowledge Discovery"],
+    "traits": ["Organization", "Attention to Detail", "Communication", "Curiosity"]
+  },
+  {
+    "title": "Education Technology Specialist",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Programming/Coding", "User Research", "Project Management"],
+    "interests": ["Education & Learning", "Technology & Innovation", "Continuous Learning"],
+    "traits": ["Innovation", "Problem Solving", "Communication", "Adaptability"]
+  },
+  {
+    "title": "Systems Engineer",
+    "required_education": "bachelors",
+    "skills": ["System Administration", "Programming/Coding", "Troubleshooting", "System Architecture"],
+    "interests": ["Technology & Innovation", "Infrastructure", "System Optimization"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Attention to Detail", "Technical Expertise"]
+  },
+  {
+    "title": "Robotics Engineer",
+    "required_education": "masters",
+    "skills": ["Programming/Coding", "Engineering", "Electronics", "AI/Machine Learning"],
+    "interests": ["Technology & Innovation", "Science & Research", "Manufacturing & Industry"],
+    "traits": ["Innovation", "Problem Solving", "Analytical Thinking", "Technical Expertise"]
+  },
+  {
+    "title": "Blockchain Developer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Cybersecurity", "Database Management", "Web Development"],
+    "interests": ["Technology & Innovation", "Business & Finance", "Continuous Learning"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Innovation", "Attention to Detail"]
+  },
+  {
+    "title": "Firmware Engineer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Electronics", "Hardware Design", "Testing"],
+    "interests": ["Technology & Innovation", "Manufacturing & Industry", "Science & Research"],
+    "traits": ["Problem Solving", "Attention to Detail", "Analytical Thinking", "Technical Expertise"]
+  },
+  {
+    "title": "Data Architect",
+    "required_education": "masters",
+    "skills": ["Database Management", "Data Analysis", "System Architecture", "ETL Pipelines"],
+    "interests": ["Technology & Innovation", "Data Management", "Business & Finance"],
+    "traits": ["Analytical Thinking", "Organization", "Strategic Thinking", "Attention to Detail"]
+  },
+  {
+    "title": "AR/VR Developer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "3D Modeling", "Game Development", "UI/UX Design"],
+    "interests": ["Technology & Innovation", "Gaming", "Creative Expression"],
+    "traits": ["Creativity", "Problem Solving", "Technical Expertise", "Innovation"]
+  },
+  {
+    "title": "IoT Engineer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Electronics", "Cloud Computing", "Network Security"],
+    "interests": ["Technology & Innovation", "Infrastructure", "Science & Research"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Innovation", "Technical Expertise"]
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "required_education": "bachelors",
+    "skills": ["System Administration", "Programming/Coding", "Cloud Computing", "Troubleshooting"],
+    "interests": ["Technology & Innovation", "System Optimization", "Continuous Learning"],
+    "traits": ["Problem Solving", "Collaboration", "Adaptability", "Attention to Detail"]
+  },
+  {
+    "title": "Backend Developer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Web Development", "Database Management", "Software Architecture"],
+    "interests": ["Technology & Innovation", "Business & Finance", "System Optimization"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Attention to Detail", "Technical Expertise"]
+  },
+  {
+    "title": "Full Stack Developer",
+    "required_education": "bachelors",
+    "skills": ["Web Development", "Programming/Coding", "Frontend Development", "Database Management"],
+    "interests": ["Technology & Innovation", "Arts & Culture", "Business & Finance"],
+    "traits": ["Creativity", "Problem Solving", "Attention to Detail", "Continuous Learning"]
+  },
+  {
+    "title": "Automation Engineer",
+    "required_education": "bachelors",
+    "skills": ["Programming/Coding", "Testing", "Process Improvement", "System Administration"],
+    "interests": ["Technology & Innovation", "Manufacturing & Industry", "Process Optimization"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Innovation", "Attention to Detail"]
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "required_education": "masters",
+    "skills": ["AI/Machine Learning", "Programming/Coding", "Data Analysis", "Mathematics"],
+    "interests": ["Technology & Innovation", "Science & Research", "Innovation"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Innovation", "Technical Expertise"]
+  },
+  {
+    "title": "Penetration Tester",
+    "required_education": "bachelors",
+    "skills": ["Cybersecurity", "Programming/Coding", "Network Security", "Risk Assessment"],
+    "interests": ["Technology & Innovation", "Security & Defense", "Continuous Learning"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Attention to Detail", "Critical Thinking"]
+  },
+  {
+    "title": "Embedded Systems Architect",
+    "required_education": "masters",
+    "skills": ["Hardware Design", "Programming/Coding", "Electronics", "System Architecture"],
+    "interests": ["Technology & Innovation", "Manufacturing & Industry", "Science & Research"],
+    "traits": ["Strategic Thinking", "Problem Solving", "Technical Expertise", "Analytical Thinking"]
+  },
+  {
+    "title": "Network Security Engineer",
+    "required_education": "bachelors",
+    "skills": ["Network Security", "Cybersecurity", "System Administration", "Troubleshooting"],
+    "interests": ["Technology & Innovation", "Security & Defense", "Infrastructure"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Attention to Detail", "Technical Expertise"]
+  },
+  {
+    "title": "Public Relations Specialist",
+    "required_education": "bachelors",
+    "skills": ["Communication", "Creative Writing", "Marketing", "Client Relations"],
+    "interests": ["Media & Entertainment", "Business & Finance", "Networking"],
+    "traits": ["Communication", "Relationship Building", "Creativity", "Persuasion"]
+  },
+  {
+    "title": "Event Planner",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Communication", "Customer Relations", "Marketing"],
+    "interests": ["Business & Finance", "Arts & Culture", "Social Impact & Non-profit"],
+    "traits": ["Organization", "Creativity", "Communication", "Time Management"]
+  },
+  {
+    "title": "Non-Profit Program Coordinator",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Communication", "Recruitment", "Fundraising"],
+    "interests": ["Social Impact & Non-profit", "Education & Learning", "Community Engagement"],
+    "traits": ["Empathy", "Leadership", "Organization", "Communication"]
+  },
+  {
+    "title": "Corporate Trainer",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Communication", "Content Strategy", "Project Management"],
+    "interests": ["Education & Learning", "Business & Finance", "Consulting & Advisory"],
+    "traits": ["Communication", "Leadership", "Empathy", "Facilitation"]
+  },
+  {
+    "title": "Supply Chain Manager",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Business Analysis", "Process Improvement", "Logistics"],
+    "interests": ["Business & Finance", "Manufacturing & Industry", "Consulting & Advisory"],
+    "traits": ["Organization", "Analytical Thinking", "Decision Making", "Problem Solving"]
+  },
+  {
+    "title": "Market Research Analyst",
+    "required_education": "bachelors",
+    "skills": ["Research", "Data Analysis", "Business Analysis", "Marketing"],
+    "interests": ["Business & Finance", "Market Trends", "Consulting & Advisory"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Communication", "Critical Thinking"]
+  },
+  {
+    "title": "Customer Success Manager",
+    "required_education": "bachelors",
+    "skills": ["Customer Relations", "Communication", "Business Analysis", "Project Management"],
+    "interests": ["Business & Finance", "Networking", "Consulting & Advisory"],
+    "traits": ["Relationship Building", "Communication", "Empathy", "Problem Solving"]
+  },
+  {
+    "title": "Journalist",
+    "required_education": "bachelors",
+    "skills": ["Creative Writing", "Research", "Communication", "Content Strategy"],
+    "interests": ["Media & Entertainment", "Education & Learning", "Arts & Culture"],
+    "traits": ["Communication", "Curiosity", "Attention to Detail", "Ethical Reasoning"]
+  },
+  {
+    "title": "Advertising Manager",
+    "required_education": "bachelors",
+    "skills": ["Marketing", "Creative Writing", "Social Media Marketing", "Project Management"],
+    "interests": ["Media & Entertainment", "Business & Finance", "Arts & Culture"],
+    "traits": ["Creativity", "Communication", "Leadership", "Strategic Thinking"]
+  },
+  {
+    "title": "Policy Analyst",
+    "required_education": "masters",
+    "skills": ["Research", "Data Analysis", "Business Analysis", "Legal Writing"],
+    "interests": ["Law & Justice", "Social Impact & Non-profit", "Public Service"],
+    "traits": ["Analytical Thinking", "Critical Thinking", "Communication", "Ethical Reasoning"]
+  },
+  {
+    "title": "Retail Manager",
+    "required_education": "bachelors",
+    "skills": ["Sales", "Customer Relations", "Project Management", "Leadership"],
+    "interests": ["Business & Finance", "Customer Service", "Networking"],
+    "traits": ["Leadership", "Communication", "Organization", "Relationship Building"]
+  },
+  {
+    "title": "Fundraising Manager",
+    "required_education": "bachelors",
+    "skills": ["Communication", "Marketing", "Customer Relations", "Project Management"],
+    "interests": ["Social Impact & Non-profit", "Business & Finance", "Networking"],
+    "traits": ["Persuasion", "Relationship Building", "Communication", "Leadership"]
+  },
+  {
+    "title": "Community Outreach Coordinator",
+    "required_education": "bachelors",
+    "skills": ["Communication", "Project Management", "Recruitment", "Marketing"],
+    "interests": ["Social Impact & Non-profit", "Community Engagement", "Education & Learning"],
+    "traits": ["Empathy", "Communication", "Collaboration", "Relationship Building"]
+  },
+  {
+    "title": "Talent Acquisition Specialist",
+    "required_education": "bachelors",
+    "skills": ["Recruitment", "Communication", "Business Analysis", "Client Relations"],
+    "interests": ["Business & Finance", "Networking", "Social Impact & Non-profit"],
+    "traits": ["Communication", "Relationship Building", "Organization", "Empathy"]
+  },
+  {
+    "title": "Brand Manager",
+    "required_education": "bachelors",
+    "skills": ["Marketing", "Social Media Marketing", "Content Strategy", "Business Analysis"],
+    "interests": ["Business & Finance", "Media & Entertainment", "Arts & Culture"],
+    "traits": ["Creativity", "Strategic Thinking", "Communication", "Leadership"]
+  },
+  {
+    "title": "Corporate Lawyer",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Business Analysis", "Client Counseling"],
+    "interests": ["Law & Justice", "Business & Finance", "Consulting & Advisory"],
+    "traits": ["Analytical Thinking", "Communication", "Ethical Reasoning", "Attention to Detail"]
+  },
+  {
+    "title": "Litigation Attorney",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Case Analysis", "Communication"],
+    "interests": ["Law & Justice", "Advocacy", "Problem Solving"],
+    "traits": ["Critical Thinking", "Communication", "Persuasion", "Analytical Thinking"]
+  },
+  {
+    "title": "Compliance Officer",
+    "required_education": "bachelors",
+    "skills": ["Regulatory Compliance", "Business Analysis", "Risk Assessment", "Legal Research"],
+    "interests": ["Law & Justice", "Business & Finance", "Consulting & Advisory"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Ethical Reasoning", "Organization"]
+  },
+  {
+    "title": "Paralegal",
+    "required_education": "bachelors",
+    "skills": ["Legal Research", "Legal Writing", "Documentation", "Case Analysis"],
+    "interests": ["Law & Justice", "Administration", "Problem Solving"],
+    "traits": ["Attention to Detail", "Organization", "Communication", "Analytical Thinking"]
+  },
+  {
+    "title": "Intellectual Property Lawyer",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Case Analysis", "Client Counseling"],
+    "interests": ["Law & Justice", "Technology & Innovation", "Business & Finance"],
+    "traits": ["Analytical Thinking", "Creativity", "Ethical Reasoning", "Attention to Detail"]
+  },
+  {
+    "title": "Contract Manager",
+    "required_education": "bachelors",
+    "skills": ["Legal Writing", "Business Analysis", "Client Relations", "Project Management"],
+    "interests": ["Business & Finance", "Law & Justice", "Consulting & Advisory"],
+    "traits": ["Communication", "Organization", "Attention to Detail", "Decision Making"]
+  },
+  {
+    "title": "Environmental Lawyer",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Case Analysis", "Regulatory Compliance"],
+    "interests": ["Law & Justice", "Environmental Conservation", "Social Impact & Non-profit"],
+    "traits": ["Analytical Thinking", "Ethical Reasoning", "Communication", "Passion for Nature"]
+  },
+  {
+    "title": "Labor and Employment Lawyer",
+    "required_education": "law_degree",
+    "skills": ["Legal Research", "Legal Writing", "Client Counseling", "Case Analysis"],
+    "interests": ["Law & Justice", "Business & Finance", "Social Impact & Non-profit"],
+    "traits": ["Communication", "Ethical Reasoning", "Empathy", "Analytical Thinking"]
+  },
+  {
+    "title": "Legal Consultant",
+    "required_education": "law_degree",
+    "skills": ["Consulting", "Legal Research", "Client Counseling", "Business Analysis"],
+    "interests": ["Law & Justice", "Consulting & Advisory", "Business & Finance"],
+    "traits": ["Communication", "Problem Solving", "Client Focus", "Analytical Thinking"]
+  },
+  {
+    "title": "Mediator",
+    "required_education": "bachelors",
+    "skills": ["Communication", "Client Counseling", "Facilitation", "Case Analysis"],
+    "interests": ["Law & Justice", "Social Impact & Non-profit", "Advocacy"],
+    "traits": ["Communication", "Empathy", "Facilitation", "Problem Solving"]
+  },
+  {
+    "title": "Physician",
+    "required_education": "medical_degree",
+    "skills": ["Healthcare Management", "Research", "Client Counseling", "Data Analysis"],
+    "interests": ["Healthcare", "Science & Research", "Social Impact & Non-profit"],
+    "traits": ["Empathy", "Analytical Thinking", "Communication", "Decision Making"]
+  },
+  {
+    "title": "Registered Nurse",
+    "required_education": "bachelors",
+    "skills": ["Healthcare Management", "Communication", "Teaching/Training", "Client Relations"],
+    "interests": ["Healthcare", "Social Impact & Non-profit", "Public Service"],
+    "traits": ["Empathy", "Communication", "Attention to Detail", "Resilience"]
+  },
+  {
+    "title": "Pharmacist",
+    "required_education": "pharmacy_degree",
+    "skills": ["Research", "Data Analysis", "Client Counseling", "Regulatory Compliance"],
+    "interests": ["Healthcare", "Science & Research", "Public Service"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Communication", "Ethical Reasoning"]
+  },
+  {
+    "title": "Medical Researcher",
+    "required_education": "phd",
+    "skills": ["Research", "Data Analysis", "Scientific Writing", "Experimental Design"],
+    "interests": ["Healthcare", "Science & Research", "Knowledge Discovery"],
+    "traits": ["Analytical Thinking", "Curiosity", "Persistence", "Critical Thinking"]
+  },
+  {
+    "title": "Physical Therapist",
+    "required_education": "masters",
+    "skills": ["Healthcare Management", "Client Counseling", "Teaching/Training", "Data Analysis"],
+    "interests": ["Healthcare", "Social Impact & Non-profit", "Public Service"],
+    "traits": ["Empathy", "Communication", "Problem Solving", "Patience"]
+  },
+  {
+    "title": "Clinical Laboratory Technician",
+    "required_education": "bachelors",
+    "skills": ["Data Analysis", "Research", "Testing", "Documentation"],
+    "interests": ["Healthcare", "Science & Research", "Quality Control"],
+    "traits": ["Attention to Detail", "Analytical Thinking", "Organization", "Persistence"]
+  },
+  {
+    "title": "Occupational Therapist",
+    "required_education": "masters",
+    "skills": ["Healthcare Management", "Client Counseling", "Teaching/Training", "User Research"],
+    "interests": ["Healthcare", "Social Impact & Non-profit", "Public Service"],
+    "traits": ["Empathy", "Creativity", "Communication", "Problem Solving"]
+  },
+  {
+    "title": "Medical Social Worker",
+    "required_education": "masters",
+    "skills": ["Client Counseling", "Communication", "Case Analysis", "Project Management"],
+    "interests": ["Healthcare", "Social Impact & Non-profit", "Community Engagement"],
+    "traits": ["Empathy", "Communication", "Relationship Building", "Problem Solving"]
+  },
+  {
+    "title": "Dietitian",
+    "required_education": "bachelors",
+    "skills": ["Client Counseling", "Research", "Teaching/Training", "Data Analysis"],
+    "interests": ["Healthcare", "Education & Learning", "Public Service"],
+    "traits": ["Communication", "Empathy", "Analytical Thinking", "Attention to Detail"]
+  },
+  {
+    "title": "Radiologic Technologist",
+    "required_education": "bachelors",
+    "skills": ["Technical Skills", "Data Analysis", "Client Relations", "Testing"],
+    "interests": ["Healthcare", "Technology & Innovation", "Science & Research"],
+    "traits": ["Attention to Detail", "Technical Expertise", "Communication", "Empathy"]
+  },
+  {
+    "title": "Civil Engineer",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Project Management", "Data Analysis", "Process Improvement"],
+    "interests": ["Infrastructure", "Manufacturing & Industry", "Technology & Innovation"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Attention to Detail", "Organization"]
+  },
+  {
+    "title": "Mechanical Engineer",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Project Management", "Troubleshooting", "Testing"],
+    "interests": ["Technology & Innovation", "Manufacturing & Industry", "Science & Research"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Innovation", "Technical Expertise"]
+  },
+  {
+    "title": "Chemical Engineer",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Research", "Data Analysis", "Process Improvement"],
+    "interests": ["Science & Research", "Manufacturing & Industry", "Innovation"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Attention to Detail", "Critical Thinking"]
+  },
+  {
+    "title": "Aerospace Engineer",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Data Analysis", "Testing", "Project Management"],
+    "interests": ["Technology & Innovation", "Science & Research", "Infrastructure"],
+    "traits": ["Analytical Thinking", "Innovation", "Problem Solving", "Technical Expertise"]
+  },
+  {
+    "title": "Musician",
+    "required_education": "diploma",
+    "skills": ["Creative Arts", "Teaching/Training", "Creative Writing", "Performance"],
+    "interests": ["Arts & Culture", "Media & Entertainment", "Creative Expression"],
+    "traits": ["Creativity", "Communication", "Time Management", "Passion for Arts"]
+  },
+  {
+    "title": "Actor",
+    "required_education": "diploma",
+    "skills": ["Creative Arts", "Performance", "Communication", "Storytelling"],
+    "interests": ["Media & Entertainment", "Arts & Culture", "Creative Expression"],
+    "traits": ["Creativity", "Empathy", "Communication", "Resilience"]
+  },
+  {
+    "title": "Animator",
+    "required_education": "bachelors",
+    "skills": ["Graphic Design", "Creative Arts", "3D Modeling", "Storytelling"],
+    "interests": ["Media & Entertainment", "Arts & Culture", "Technology & Innovation"],
+    "traits": ["Creativity", "Attention to Detail", "Technical Skills", "Patience"]
+  },
+  {
+    "title": "Film Director",
+    "required_education": "bachelors",
+    "skills": ["Creative Arts", "Storytelling", "Project Management", "Communication"],
+    "interests": ["Media & Entertainment", "Arts & Culture", "Creative Expression"],
+    "traits": ["Creativity", "Leadership", "Communication", "Vision"]
+  },
+  {
+    "title": "Hotel Manager",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Customer Relations", "Leadership", "Communication"],
+    "interests": ["Business & Finance", "Customer Service", "Hospitality"],
+    "traits": ["Leadership", "Organization", "Communication", "Relationship Building"]
+  },
+  {
+    "title": "Travel Agent",
+    "required_education": "diploma",
+    "skills": ["Customer Relations", "Communication", "Sales", "Research"],
+    "interests": ["Travel & Tourism", "Business & Finance", "Networking"],
+    "traits": ["Communication", "Organization", "Relationship Building", "Attention to Detail"]
+  },
+  {
+    "title": "Chef",
+    "required_education": "diploma",
+    "skills": ["Creative Arts", "Time Management", "Project Management", "Customer Relations"],
+    "interests": ["Arts & Culture", "Hospitality", "Creative Expression"],
+    "traits": ["Creativity", "Attention to Detail", "Time Management", "Passion"]
+  },
+  {
+    "title": "Public Administrator",
+    "required_education": "masters",
+    "skills": ["Project Management", "Business Analysis", "Communication", "Regulatory Compliance"],
+    "interests": ["Public Service", "Social Impact & Non-profit", "Administration"],
+    "traits": ["Leadership", "Organization", "Communication", "Ethical Reasoning"]
+  },
+  {
+    "title": "Diplomat",
+    "required_education": "masters",
+    "skills": ["Communication", "Client Relations", "Research", "Facilitation"],
+    "interests": ["Public Service", "Networking", "Law & Justice"],
+    "traits": ["Communication", "Relationship Building", "Adaptability", "Ethical Reasoning"]
+  },
+  {
+    "title": "Urban Planner",
+    "required_education": "masters",
+    "skills": ["Project Management", "Data Analysis", "Research", "Design"],
+    "interests": ["Infrastructure", "Social Impact & Non-profit", "Environmental Conservation"],
+    "traits": ["Analytical Thinking", "Creativity", "Problem Solving", "Strategic Thinking"]
+  },
+  {
+    "title": "Economist",
+    "required_education": "phd",
+    "skills": ["Data Analysis", "Research", "Statistics", "Business Analysis"],
+    "interests": ["Business & Finance", "Market Trends", "Science & Research"],
+    "traits": ["Analytical Thinking", "Critical Thinking", "Attention to Detail", "Problem Solving"]
+  },
+  {
+    "title": "Actuary",
+    "required_education": "bachelors",
+    "skills": ["Data Analysis", "Statistics", "Risk Assessment", "Financial Modeling"],
+    "interests": ["Business & Finance", "Market Trends", "Consulting & Advisory"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Decision Making", "Critical Thinking"]
+  },
+  {
+    "title": "Wealth Manager",
+    "required_education": "bachelors",
+    "skills": ["Financial Analysis", "Client Relations", "Business Analysis", "Customer Relations"],
+    "interests": ["Business & Finance", "Consulting & Advisory", "Networking"],
+    "traits": ["Relationship Building", "Communication", "Analytical Thinking", "Client Focus"]
+  },
+  {
+    "title": "Sustainability Consultant",
+    "required_education": "masters",
+    "skills": ["Consulting", "Research", "Data Analysis", "Project Management"],
+    "interests": ["Environmental Conservation", "Social Impact & Non-profit", "Business & Finance"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Client Focus", "Environmental Awareness"]
+  },
+  {
+    "title": "Conservationist",
+    "required_education": "bachelors",
+    "skills": ["Research", "Field Work", "Data Analysis", "Communication"],
+    "interests": ["Environmental Conservation", "Science & Research", "Sustainability"],
+    "traits": ["Environmental Awareness", "Passion for Nature", "Analytical Thinking", "Persistence"]
+  },
+  {
+    "title": "Renewable Energy Specialist",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Project Management", "Data Analysis", "Research"],
+    "interests": ["Environmental Conservation", "Technology & Innovation", "Sustainability"],
+    "traits": ["Innovation", "Analytical Thinking", "Problem Solving", "Environmental Awareness"]
+  },
+  {
+    "title": "Athletic Trainer",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Client Counseling", "Data Analysis", "Healthcare Management"],
+    "interests": ["Healthcare", "Sports", "Public Service"],
+    "traits": ["Empathy", "Communication", "Problem Solving", "Attention to Detail"]
+  },
+  {
+    "title": "Sports Coach",
+    "required_education": "bachelors",
+    "skills": ["Teaching/Training", "Communication", "Leadership", "Performance"],
+    "interests": ["Sports", "Education & Learning", "Team Collaboration"],
+    "traits": ["Leadership", "Communication", "Motivation", "Teamwork"]
+  },
+  {
+    "title": "Fitness Instructor",
+    "required_education": "diploma",
+    "skills": ["Teaching/Training", "Communication", "Customer Relations", "Performance"],
+    "interests": ["Sports", "Healthcare", "Public Service"],
+    "traits": ["Communication", "Motivation", "Empathy", "Energy"]
+  },
+  {
+    "title": "Architect",
+    "required_education": "bachelors",
+    "skills": ["Design", "Project Management", "Creative Arts", "Technical Skills"],
+    "interests": ["Arts & Culture", "Infrastructure", "Technology & Innovation"],
+    "traits": ["Creativity", "Attention to Detail", "Problem Solving", "Strategic Thinking"]
+  },
+  {
+    "title": "Landscape Architect",
+    "required_education": "bachelors",
+    "skills": ["Design", "Project Management", "Creative Arts", "Environmental Science"],
+    "interests": ["Environmental Conservation", "Arts & Culture", "Infrastructure"],
+    "traits": ["Creativity", "Environmental Awareness", "Attention to Detail", "Problem Solving"]
+  },
+  {
+    "title": "City Planner",
+    "required_education": "masters",
+    "skills": ["Project Management", "Data Analysis", "Research", "Regulatory Compliance"],
+    "interests": ["Infrastructure", "Social Impact & Non-profit", "Environmental Conservation"],
+    "traits": ["Strategic Thinking", "Analytical Thinking", "Communication", "Organization"]
+  },
+  {
+    "title": "Agronomist",
+    "required_education": "bachelors",
+    "skills": ["Research", "Data Analysis", "Field Work", "Environmental Science"],
+    "interests": ["Agriculture", "Science & Research", "Sustainability"],
+    "traits": ["Analytical Thinking", "Environmental Awareness", "Problem Solving", "Persistence"]
+  },
+  {
+    "title": "Food Scientist",
+    "required_education": "bachelors",
+    "skills": ["Research", "Data Analysis", "Experimental Design", "Testing"],
+    "interests": ["Science & Research", "Agriculture", "Innovation"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Curiosity", "Critical Thinking"]
+  },
+  {
+    "title": "Agricultural Engineer",
+    "required_education": "bachelors",
+    "skills": ["Engineering", "Project Management", "Data Analysis", "Field Work"],
+    "interests": ["Agriculture", "Technology & Innovation", "Sustainability"],
+    "traits": ["Problem Solving", "Analytical Thinking", "Innovation", "Environmental Awareness"]
+  },
+  {
+    "title": "Commercial Pilot",
+    "required_education": "bachelors",
+    "skills": ["Technical Skills", "Troubleshooting", "Communication", "Risk Assessment"],
+    "interests": ["Aviation", "Travel & Tourism", "Technology & Innovation"],
+    "traits": ["Attention to Detail", "Decision Making", "Technical Expertise", "Resilience"]
+  },
+  {
+    "title": "Air Traffic Controller",
+    "required_education": "bachelors",
+    "skills": ["Communication", "Risk Assessment", "Decision Making", "System Administration"],
+    "interests": ["Aviation", "Infrastructure", "Public Service"],
+    "traits": ["Attention to Detail", "Decision Making", "Analytical Thinking", "Stress Management"]
+  },
+  {
+    "title": "Logistics Coordinator",
+    "required_education": "bachelors",
+    "skills": ["Project Management", "Business Analysis", "Process Improvement", "Customer Relations"],
+    "interests": ["Business & Finance", "Infrastructure", "Travel & Tourism"],
+    "traits": ["Organization", "Problem Solving", "Communication", "Analytical Thinking"]
+  },
+  {
+    "title": "Anthropologist",
+    "required_education": "phd",
+    "skills": ["Research", "Data Analysis", "Scientific Writing", "Field Work"],
+    "interests": ["Science & Research", "Education & Learning", "Social Impact & Non-profit"],
+    "traits": ["Curiosity", "Analytical Thinking", "Critical Thinking", "Persistence"]
+  },
+  {
+    "title": "Historian",
+    "required_education": "phd",
+    "skills": ["Research", "Scientific Writing", "Data Analysis", "Documentation"],
+    "interests": ["Education & Learning", "Arts & Culture", "Knowledge Discovery"],
+    "traits": ["Analytical Thinking", "Attention to Detail", "Curiosity", "Critical Thinking"]
+  },
+  {
+    "title": "Sociologist",
+    "required_education": "phd",
+    "skills": ["Research", "Data Analysis", "Scientific Writing", "User Research"],
+    "interests": ["Social Impact & Non-profit", "Science & Research", "Education & Learning"],
+    "traits": ["Analytical Thinking", "Critical Thinking", "Curiosity", "Communication"]
+  },
+  {
+    "title": "Merchandiser",
+    "required_education": "bachelors",
+    "skills": ["Marketing", "Business Analysis", "Customer Relations", "Sales"],
+    "interests": ["Business & Finance", "Customer Service", "Market Trends"],
+    "traits": ["Communication", "Analytical Thinking", "Creativity", "Organization"]
+  },
+  {
+    "title": "Product Designer",
+    "required_education": "bachelors",
+    "skills": ["Design", "User Research", "Creative Arts", "Project Management"],
+    "interests": ["Arts & Culture", "Business & Finance", "Technology & Innovation"],
+    "traits": ["Creativity", "Attention to Detail", "Problem Solving", "User Focus"]
+  },
+  {
+    "title": "Supply Chain Analyst",
+    "required_education": "bachelors",
+    "skills": ["Data Analysis", "Business Analysis", "Process Improvement", "Project Management"],
+    "interests": ["Business & Finance", "Manufacturing & Industry", "Infrastructure"],
+    "traits": ["Analytical Thinking", "Problem Solving", "Organization", "Attention to Detail"]
+  }
+]
