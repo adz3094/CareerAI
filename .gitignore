@@ -1,6 +1,31 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
-node_modules
-dist
-.cache
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pkl
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+.idea/
+
+# Logs and cache
+*.log
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environments and credentials
+.env
+
+# Frontend build
+node_modules/
+dist/
+build/
