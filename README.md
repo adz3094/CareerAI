@@ -19,7 +19,7 @@ It returns the top 3 closest careers — personalized to you!
 No training or external models — just smart logic + cosine similarity between binary vectors. Great for quick demos, prototypes, or beginner ML learners!
 
 # 🧠 Tech Stack
-Frontend: HTML + JavaScript (Vanilla or React)
+Frontend: HTML + JavaScript
 
 Backend: FastAPI (Python)
 
